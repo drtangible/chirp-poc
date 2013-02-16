@@ -4,7 +4,7 @@ require "chirp/experiment"
 
 module Chirp
 
-  CHIRP_API_HOST = "http://localhost:3000"
+  CHIRP_API_HOST = "http://rocky-depths-6284.herokuapp.com"
 
   def experiment(slug, &block)
     # Make API request for a serving for the experiment defined in the slug.
